@@ -3,9 +3,6 @@
 const User = require("../models/users")
 const hashPassword = require("../utils/hashPassword");
 
-
-
-
 const users = [
     new User({
         name: "Imo",
@@ -20,8 +17,7 @@ let done = 0;
     try {
         await User.deleteMany({});
 
-
-        for (let i = 0; i < users.length; i++) {
+            for (let i = 0; i < users.length; i++) {
 
             await users[i].save();
         }
