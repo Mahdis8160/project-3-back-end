@@ -67,9 +67,9 @@ now open: http://localhost:4001/graphql and send request
  }
 ```
 
-##### github repo link:https://github.com/Mahdis8160/project-3-back-end
+##### github repo link:
 
-
+https://github.com/Mahdis8160/project-3-back-end
 
 
 
